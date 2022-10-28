@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 import * as C from "./styles"
 
 export default function allProdutos() {
@@ -9,7 +8,6 @@ export default function allProdutos() {
             <ul>  
 
                 <li>
-                    <Link href='/products'>products</Link>
                     <Link href='/about'>about</Link>
                     <Link href='/services'>services</Link>
                 </li>

@@ -1,8 +1,14 @@
 import Link from "next/link"
-import AllProdutos from "../../components/products"
+import Head from "next/head"
 
 export default function allProdutos() {
     return (
-        <AllProdutos />
+        <>
+            <Head>
+                <title>PRODUTOS</title>
+
+                <Link href="/" >Voltar</Link>
+            </Head>
+        </>
     )
 }
