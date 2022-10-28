@@ -1,5 +1,8 @@
-export default function allProdutos(){
+import Link from "next/link"
+import AllProdutos from "../../components/products"
+
+export default function allProdutos() {
     return (
-        <>All allProducts</>
+        <AllProdutos />
     )
 }
